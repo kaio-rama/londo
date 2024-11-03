@@ -1,0 +1,31 @@
+    {
+        "contacts": [
+        { 
+            "id": "ramon-garcia",
+            "name": "Ramon García",
+            "position": "CEO / Productor",
+            "description": "Técnico de audiovisual, con experiencia en proyectos de gran pitch, desde la ideación hasta la producción. Con un enfoque creativo y un gran interés por la tecnología.",
+            "image": "../assets/images/profile-pictures/Captura de pantalla 2024-10-13 195311.png"
+        },
+        {
+            "id": "ramon-garcia",
+            "name": "Ramon García",
+            "position": "CEO / Productor",
+            "description": "Técnico de audiovisual, con experiencia en proyectos de gran pitch, desde la ideación hasta la producción. Con un enfoque creativo y un gran interés por la tecnología.",        
+            "image": "../assets/images/profile-pictures/Captura de pantalla 2024-10-13 195311.png"
+        },
+        {
+            "id": "ramon-garcia",
+            "name": "Ramon García",
+            "position": "CEO / Productor",
+            "description": "Técnico de audiovisual, con experiencia en proyectos de gran pitch, desde la ideación hasta la producción. Con un enfoque creativo y un gran interés por la tecnología.",
+            "image": "../assets/images/profile-pictures/Captura de pantalla 2024-10-13 195311.png"
+        },
+        {
+            "id": "ramon-garcia",
+            "name": "Ramon García",
+            "position": "CEO / Productor",
+            "description": "Técnico de audiovisual, con experiencia en proyectos de gran pitch, desde la ideación hasta la producción. Con un enfoque creativo y un gran interés por la tecnología.",
+            "image": "../assets/images/profile-pictures/Captura de pantalla 2024-10-13 195311.png"
+        }]
+}

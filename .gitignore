@@ -34,3 +34,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#API KEYS
+const ki = '1443:gk-6xPJciyHLdJi_8yeSUUYoKKVGBKQbdF3WJlCzgR0PqK-Xf_v424vNIy3LSpMZ'
