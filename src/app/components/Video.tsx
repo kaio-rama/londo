@@ -12,7 +12,7 @@ interface Props {
 
 export const Video = (props: Props) => {
   return (
-    <>
+    <div className='bg-black/20 border-2 border-gray-900/20 rounded-full'> 
       <style jsx>{`
         @keyframes fadeInDiagonal {
           0% {
@@ -34,13 +34,13 @@ export const Video = (props: Props) => {
       >
         {props.directionleft ? (
           <>
-            <div className="flex flex-col items-center justify-center p-4 lg:w-1/2 text-gray-200 h-[200px] sm:h-[200px] md:h-[200px] xl:h-[200px] xl:h-[340px] mb-10">
+            <div className="flex flex-col items-center justify-center p-8 lg:w-1/2 text-gray-200 h-[200px] sm:h-[200px] md:h-[200px] xl:h-[200px] xl:h-[340px] mb-10">
               <h2 className="text-3xl font-bold mb-8">{props.title}</h2>
               <p className="font-normal text-xl text-center pb-4">{props.text}</p>
             </div>
             <iframe
               src={props.src}
-              className="w-full lg:w-1/2 h-[300px] sm:h-[400px] md:h-[360px] lg:h-[400px] xl:h-[500px] max-w-[980px]"
+              className="w-full lg:w-1/2 h-[300px] sm:h-[400px] md:h-[360px] lg:h-[400px] xl:h-[500px] max-w-[980px] p-8"
               allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
             ></iframe>
@@ -49,7 +49,7 @@ export const Video = (props: Props) => {
           <>
             <iframe
               src={props.src}
-              className="w-full lg:w-1/2 h-[300px] sm:h-[400px] md:h-[360px] lg:h-[400px] xl:h-[500px] max-w-[980px]"
+              className="w-full lg:w-1/2 h-[300px] sm:h-[400px] md:h-[360px] lg:h-[400px] xl:h-[500px] max-w-[980px] p-8"
               allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
             ></iframe>
@@ -60,6 +60,6 @@ export const Video = (props: Props) => {
           </>
         )}
       </div>
-    </>
+    </div>
   );
 };

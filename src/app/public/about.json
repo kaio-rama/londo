@@ -1,0 +1,58 @@
+ [
+        { 
+            "id": "Ramiro_Canevari",
+            "name": "Ramiro Canevari",
+            "position": "CEO / Productor",
+            "description": "Técnico de audiovisual, con experiencia en proyectos de gran pitch, desde la ideación hasta la producción. Con un enfoque creativo y un gran interés por la tecnología.",
+            "image": "/assets/images/profile-pictures/ramiro-canevari.png",
+            "web": "https://gravatar.com/exactlyland1c83fe7507",
+            "text": "Lore impsum impsumimpsum Modena, dirigido por Lucio Rodriguez y Roman Massacese. Proyecto realizado e impulsado desde Londo, con un enfoque creativo y una idea trabajada de manera integral.",
+            "instagram": "https://www.instagram.com/luciorodriguez/",
+            "twitter": "https://twitter.com/luciorodriguez",
+            "mail": "luciorodriguez@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/luciorodriguez/",
+            "github": "https://github.com/luciorodriguez"
+        },
+        {
+            "id": "Lucio_Rodriguez",
+            "name": "Lucio Rodriguez",
+            "position": "CEO / Productor",
+            "description": "Comunicador social y creativo, artista digital y visual, se dedica a la creación de sonidos e imagenes. Con un enfoque creativo y un gran interés por la tecnología.", 
+            "image": "",
+            "web": "",
+            "text": "Comunicador social y creativo, artista digital y visual, Lucio es un artista de audiovisual que se dedica a la creación de sonidos e imagenes que reflejan la diversidad y la creatividad de la humanidad. Con un enfoque creativo y un gran interés por la tecnología.",
+            "instagram": "https://www.instagram.com/luciorodriguez/",
+            "twitter": "https://twitter.com/luciorodriguez",
+            "mail": "luciorodriguez@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/luciorodriguez/",
+            "github": "https://github.com/luciorodriguez"
+        },
+        {
+            "id": "Roman_Massacese",
+            "name": "Roman Massacese",
+            "position": "ADF / Productor",
+            "description": "Técnico de audiovisual, con experiencia en proyectos de gran pitch, desde la ideación hasta la producción. Con un enfoque creativo y un gran interés por la tecnología.",
+            "image": "/assets/images/profile-pictures/Captura de pantalla 2024-10-13 195311.png",
+            "web": "https://gravatar.com/exactlyland1c83fe7507",
+            "text":"",
+            "instagram": "https://www.instagram.com/luciorodriguez/",
+            "twitter": "https://twitter.com/luciorodriguez",
+            "mail": "luciorodriguez@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/luciorodriguez/",
+            "github": "https://github.com/luciorodriguez"
+        },
+        {
+            "id": "Ramiro_Deias_Spreng",
+            "name": "Ramiro Deias Spreng",
+            "position": "CEO / Productor",
+            "description": "Técnico de audiovisual, con experiencia en proyectos de gran pitch, desde la ideación hasta la producción. Con un enfoque creativo y un gran interés por la tecnología.",
+            "image": "/assets/images/profile-pictures/Captura de pantalla 2024-10-13 195311.png",
+            "web": "https://gravatar.com/exactlyland1c83fe7507",
+            "text":"",
+            "instagram": "https://www.instagram.com/luciorodriguez/",
+            "twitter": "https://twitter.com/luciorodriguez",
+            "mail": "luciorodriguez@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/luciorodriguez/",
+            "github": "https://github.com/luciorodriguez"
+        }
+]

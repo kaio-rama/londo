@@ -14,7 +14,7 @@ import Link from "next/link";
   export function ProfileCard(prop) { 
     return (
       <Link href={prop.onclick}>
-      <Card className="w-96 bg-gray-900/40 "> 
+      <Card className="w-96  bg-gray-900/40 "> 
         <CardHeader floated={false} className="h-80 bg-gradient-to-r from-gray-900 to-blue-900 ">
           <Image src={prop.image} alt={prop.alt} width={500} height={500} />
         </CardHeader>

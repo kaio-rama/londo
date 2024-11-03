@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { ProfileCard } from "../components/Card";
-
-import img1 from "../assets/images/profile-pictures/ramiro-canevari.png";
+import  contacts  from "../public/about.json";
+import Image from "next/image";
+import logo from "../assets/images/londo-logo.png";
 
 export const metadata: Metadata = {
     title: "About | LONDO",
@@ -9,10 +10,12 @@ export const metadata: Metadata = {
   };
 
 export default function Home() {
+  // const { img, name, position, description } = contacts;
   return (
-      <div className="grid items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-
+    <> 
+    <Image src={logo} alt="Londo" width={3000} height={200}/>
+      <div className=" p-8 pb-20 sm:p-24 font-[family-name:var(--font-geist-sans)]">
+        <main className="flex flex-col gap-14 items-center sm:items-start">
         <h1 className="text-5xl font-bold">Somos Londo, somos audio / visuales.</h1>
 
         <p className="text-2xl "> Con un historial de colaboración con grandes nombres de la industria, como Netflix y Star Plus, hemos tenido el privilegio de aportar nuestro talento 
@@ -21,13 +24,16 @@ export default function Home() {
         <br/><br/>
             Londo nace del deseo de innovar y conectar. Creemos que cada proyecto es una oportunidad para explorar nuevas fronteras y crear algo único. 
             Con un enfoque fresco y dinámico, estamos listos para enfrentar los desafíos del mercado actual y convertir tus ideas en realidades.</p>  
-        <div className="m-2 flex align-middle flex-wrap gap-10">
-        <ProfileCard image={img1} name="Ramon García" position="CEO / Productor" 
-                     description="Técnico de audiovisual, con experiencia en proyectos de gran pitch, desde la ideación hasta la producción. Con un enfoque creativo y un gran interés por la tecnología." 
-                     alt="Ramon" 
-                     onclick="/about/Ramiro_Canevari" />
-        </div>
+        
         </main>
       </div>
+      <div className="flex gap-12 flex-wrap justify-center">
+        {contacts.map((contact) => (
+          <ProfileCard key={contact.id} image={contact.image} name={contact.name} position={contact.position}
+                       description={contact.description} alt={contact.name} 
+                       onclick={`/about/${contact.id}`} />
+        ))}
+        </div>
+      </>
   );
 }

@@ -1,10 +1,23 @@
 import React from 'react'
 import { Video } from '../components/Video'
+import { Metadata } from 'next'
+
+
+export const metadata: Metadata = {
+  title: 'AudioVisual | LONDO',
+  description: 'Productora Audiovisual, hecha por artistas.',
+}
 
 export default function LondoLabs() {
   return (
     <>
       <div className="pb-20">
+        <video autoPlay loop muted className="h-96 w-full">
+          <source src="/assets/images/demo.mp4" type="video/mp4" />
+        </video>
+
+
+
         <main>
         <div className='m-10'>
             <h1 className="text-5xl font-bold mb-8">Londo // AudioVisual</h1>
