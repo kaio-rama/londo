@@ -12,7 +12,7 @@ interface Props {
 
 export const Video = (props: Props) => {
   return (
-    <div className='bg-black/20 border-2 border-gray-900/20 rounded-full'> 
+    <div className='bg-black/20 border-2 border-transparent'> 
       <style jsx>{`
         @keyframes fadeInDiagonal {
           0% {
@@ -29,7 +29,7 @@ export const Video = (props: Props) => {
       `}</style>
       <div
         className={`fade-in-diagonal flex flex-col lg:flex-row items-center justify-center lg:gap-8 p-10 ${
-          props.directionleft ? 'bg-gradient-to-t from-black' : 'bg-gradient-to-b from-black'
+          props.directionleft ? 'bg-gradient-to-t from-black/60' : 'bg-gradient-to-b from-black/60'
         }`}
       >
         {props.directionleft ? (

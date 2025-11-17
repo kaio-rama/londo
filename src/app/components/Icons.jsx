@@ -71,3 +71,10 @@ export function IconMail() {
     </svg>
   );
 }
+
+export function IconBackArrow() {
+  return (
+      <svg xmlns="http://www.w3.org/2000/svg" stroke="currentColor" fill="#ffffff" viewBox="-0.5 -0.5 24 24" id="Arrow-Back-Ios-Fill--Streamline-Sharp-Fill-Material-Symbols" height={32} width={32} >
+        <desc>{"Arrow Back Ios Fill Streamline Icon: https://streamlinehq.com"}</desc><path fill="#000000" d="M9.583333333333334 21.083333333333336 0 11.5 9.583333333333334 
+        1.9166666666666667l1.3416666666666666 1.365625L2.707291666666667 11.5 10.925 19.717708333333334 9.583333333333334 21.083333333333336Z" strokeWidth={2} /></svg>
+);}

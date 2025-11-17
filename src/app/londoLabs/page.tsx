@@ -1,6 +1,8 @@
 import React from 'react'
 import { Video } from '../components/Video'
 import { Metadata } from 'next'
+import Image from 'next/image'
+import logo from '../assets/images/londo-logo.png'
 
 
 export const metadata: Metadata = {
@@ -11,16 +13,18 @@ export const metadata: Metadata = {
 export default function LondoLabs() {
   return (
     <>
-      <div className="pb-20">
-        <video autoPlay loop muted className="h-96 w-full">
-          <source src="/assets/images/demo.mp4" type="video/mp4" />
-        </video>
-
-
-
         <main>
+                  <div className="relative w-full h-[300px] sm:h-[400px] bg-black">
+        <Image 
+          src={logo} 
+          alt="Londo" 
+          fill
+          className="object-contain"
+          priority
+        />
+      </div>
         <div className='m-10'>
-            <h1 className="text-5xl font-bold mb-8">Londo // AudioVisual</h1>
+            <h1 className="text-5xl font-bold mb-8">// AudioVisual</h1>
             <p className="text-2xl">
                 Producimos contenido audiovisual de alta calidad y creatividad.
                 <br />
@@ -32,7 +36,7 @@ export default function LondoLabs() {
           </div>
                     <Video src='https://player.vimeo.com/video/999323600?h=ed7b6481dc' 
                             title='RIO SECO, CORTOMETRAJE (2024)'
-                            text={`Producimos nuestras propias historias, como por ejemplo Rio Seco - 2024, dirigido por Rama Canevari y producido por Londo & Subsuelo. Actualmente participando
+                            text={`Producimos nuestras propias historias, como por ejemplo Rio Seco - 2024, dirigido por Ramiro Canevari y producido por Londo & Subsuelo. Actualmente participando
                                 en multiples festivales hispanoparlantes tanto en Latinoamérica como Europa.`} 
                             directionleft={true}
                             directionright={false}
@@ -59,7 +63,7 @@ export default function LondoLabs() {
                         directionright={true} 
                         />
         </main>
-      </div>
+      
     </>
   )
 }

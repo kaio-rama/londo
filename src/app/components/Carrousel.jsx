@@ -15,21 +15,21 @@ export function CarouselDefault() {
         alt="image 1"
         className="w-full h-full object-cover "
         
-        width={1000}
+        width={2000}
         height={1000}
       />
       <Image
         src={imag2}
         alt="image 2"
         className="h-full w-full object-cover"
-        width={1000}
+        width={2000}
         height={1000}
       />
       <Image
         src={imag3}
         alt="image 3"
         className="h-full w-full object-cover"
-        width={1000}
+        width={2000}
         height={1000}
       />
     </Carousel>
