@@ -2,6 +2,7 @@ import React from 'react'
 import { Metadata } from 'next'
 import imag1 from "../assets/images/barcelona_1.jpg";
 import Image from "next/image";
+import logo from "../assets/images/barcelona .jpg";
 
 export const metadata: Metadata = {
   title: 'Barcelona | LONDO',
@@ -11,6 +12,15 @@ export const metadata: Metadata = {
 export default function LondoLabs() {
   return (
     <>
+          <div className="relative w-full h-[300px] sm:h-[400px] bg-black">
+        <Image 
+          src={logo} 
+          alt="BCN" 
+          fill
+          className="object-none grayscale contrast-125 opacity-80"
+          priority
+        />
+      </div>
       <main>
         <div className="px-6 sm:px-10 py-10 max-w-8xl mx-auto">
           <h1 className="text-5xl font-bold mb-8 text-center sm:text-left">
@@ -22,7 +32,7 @@ export default function LondoLabs() {
             
             {/* Columna de texto */}
             <div className="flex-1">
-              <p className="text-2xl mb-6 leading-relaxed text-justify">
+              <p className="text-2xl mb-6 leading-relaxed text-justify ">
                 Londo cuenta con presencia en Barcelona, en el área de audiovisual, enfocados principalmente en el LIVE y los eventos en vivo.  
                 Contamos con los equipamientos y el personal necesario para ayudarte en el desarrollo técnico y creativo de tus eventos.
               </p>
